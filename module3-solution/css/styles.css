@@ -1,0 +1,111 @@
+body {
+  font-size: 16px;
+  background-color: rgb(216, 202, 250);
+  font-family:'Comic Neue', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgb(253, 14, 253);
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 {
+  font-family: 'Merriweather', serif;
+  color: blue;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  background-color: thistle;
+  color: #951C49;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#nav-list a:hover {
+  background-color: seashell;
+  border: 1px solid black;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 15px;
+}
+/* END HEADER */
+h2{
+  font-family:  'Lexend Giga', sans-serif;;
+  font-size: xx-large;
+  color: purple;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+div.row{
+  position: relative;
+  margin-left: 3%;
+  margin-right: 10px;
+}
+.col-xs-12{
+  width: 100%;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  color: black;
+  background-color: rgba(135, 207, 235, 0.671);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: large;
+  padding: 20px 10px;
+  text-align: left;
+  color: rgb(236, 14, 14);
+}
+.head1, .head2, .head3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px 30px;
+    color: rgb(0, 9, 12);
+    display: inline-block;
+    padding: 10px;
+}
+@media(max-width: 767px){
+  
+  .navbar-brand h1 {
+    margin-top: 20px ;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-header button.navbar-toggle {
+    margin-top: 23px;
+  }
+  div.row{
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+}
+
+
