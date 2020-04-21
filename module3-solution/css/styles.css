@@ -8,7 +8,7 @@ body {
 #header-nav {
   background-color: rgb(253, 14, 253);
   border-radius: 0;
-  border: 0;
+  border: 2px solid black;
 }
 .navbar-brand {
   padding-top: 15px;
@@ -29,17 +29,16 @@ body {
 }
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 #nav-list a {
-  background-color: thistle;
   color: #951C49;
   text-align: center;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
 }
 #nav-list a:hover {
-  background-color: seashell;
+  background-color: rgb(241, 169, 217);
   border: 1px solid black;
 
 }
@@ -47,7 +46,7 @@ body {
   border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
-  margin-top: 15px;
+  margin-top: 12px;
 }
 /* END HEADER */
 h2{
